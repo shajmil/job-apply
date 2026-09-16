@@ -86,6 +86,6 @@ export function startDashboard() {
  res.writeHead(200,{'Content-Type':contentTypes[extname(path)]??'application/octet-stream','X-Content-Type-Options':'nosniff','X-Frame-Options':'DENY','Referrer-Policy':'no-referrer'});res.end(data);
  } catch(e){json(400,{error:e instanceof Error?e.message:'Request failed'});}
  });
- server.listen(positiveInt('PORT',3000),'127.0.0.1',()=>console.log('Review dashboard: http://127.0.0.1:'+positiveInt('PORT',3000)));
+ server.listen(positiveInt('PORT',3000),'0.0.0.0',()=>console.log('Review dashboard: http://localhost:'+positiveInt('PORT',3000)));
  return server;
 }
