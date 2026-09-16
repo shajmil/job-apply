@@ -12,6 +12,7 @@
     "build": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "dashboard": "tsx src/index.ts --dashboard",
+    "dashboard:dev": "tsx watch src/index.ts --dashboard",
     "dashboard:build": "npm --prefix dashboard run build",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx src/db/migrate.ts",
