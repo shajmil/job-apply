@@ -1,0 +1,1 @@
+ALTER TABLE "discovered_jobs" ADD COLUMN "company_domain" text;

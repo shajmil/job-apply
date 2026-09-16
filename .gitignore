@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+assets/
+dashboard/node_modules/
+dashboard/dist/
+*.log

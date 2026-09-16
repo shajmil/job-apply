@@ -1,0 +1,38 @@
+{
+  "name": "job-search-agent",
+  "version": "2.0.0",
+  "description": "Continuous Angular/Node job discovery, scoring and application agent",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "run:once": "tsx src/index.ts --once",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "build": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "dashboard": "tsx src/index.ts --dashboard",
+    "dashboard:build": "npm --prefix dashboard run build",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "rescore": "tsx src/index.ts --rescore"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.45.2",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^10.0.9",
+    "pg": "^8.13.1",
+    "playwright-core": "^1.63.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^6.4.17",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

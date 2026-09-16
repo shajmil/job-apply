@@ -1,0 +1,10 @@
+About Techversant: Techversant is a global technology services company for more than 17 years. We offers expertize and consultation in multiple technology domains like ColdFusion, Python, Java, .NET, Node JS, Ruby on Rails, Golang, PHP, Artificial intelligence, Blockchain, IOS, Android, Flutter, React Native, Angular, React Vue.
+We are looking for Web Developers with 2–4 years of experience in web application development who are passionate about software engineering, continuous learning, and AI-assisted development.
+Responsibilities
+Develop and maintain web applications using PHP or Python. Build responsive web interfaces using HTML, CSS, and JavaScript. Design, develop, and integrate REST APIs. Write clean, reusable, maintainable, and well-structured code following OOP principles. Debug, troubleshoot, and optimize existing applications, including legacy systems. Collaborate with cross-functional teams to deliver high-quality software.
+Required Skills
+2–4 years of professional web development experience. Strong proficiency in PHP or Python. Good knowledge of HTML, CSS, JavaScript, and REST APIs. Strong understanding of Object-Oriented Programming (OOP), data structures, algorithms, and software design principles. Good SQL knowledge with experience in MySQL, PostgreSQL, or MSSQL. Experience with Git and collaborative development workflows.
+Mandatory Requirements
+Proven experience using AI coding assistants (e.g., ChatGPT, Claude, GitHub Copilot, Cursor, Windsurf, or similar) as part of the software development lifecycle. Ability to critically review, validate, and improve AI-generated code.
+Nice to Have
+Experience with Laravel, Django, or Flask. Exposure to React, Vue.js, or Angular. Basic knowledge of DevOps concepts, Docker, CI/CD, or cloud platforms.
